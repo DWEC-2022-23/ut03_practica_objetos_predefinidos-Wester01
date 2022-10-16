@@ -87,7 +87,7 @@ let mitad = document.querySelector('#mitad');
 mitad.addEventListener('click',() => {
 
 	var text = document.querySelector("#texto");
-	textoResuelto.innerHTML = text.value.split("",text.value.length/2).join().replace(",","");
+	textoResuelto.innerHTML = text.value.split("",text.value.length/2).join("").replace(",","");
 });
 
 let ultimo = document.querySelector("#ultimo");
